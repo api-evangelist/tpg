@@ -28,10 +28,14 @@ apis:
     description: >-
       The TPG Inc API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: DomainSecurity
+    url: security/tpg-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/tpginc
   - type: Website
     url: https://www.tpg.com
+  - url: https://www.tpg.com/news-and-insights
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
