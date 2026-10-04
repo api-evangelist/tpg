@@ -1,6 +1,6 @@
 aid: tpg
 url: https://raw.githubusercontent.com/api-evangelist/tpg/refs/heads/main/apis.yml
-name: TPG Inc
+name: TPG
 type: Index
 deliveryModel:
   model: unknown
@@ -62,3 +62,4 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-legal-name: TPG Inc
