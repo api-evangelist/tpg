@@ -51,6 +51,12 @@ apis:
     description: >-
       The TPG Inc API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/tpg-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/tpg-rate-limits.yml
+  - type: FinOps
+    url: finops/tpg-finops.yml
   - type: DomainSecurity
     url: security/tpg-domain-security.yml
   - type: LinkedIn
