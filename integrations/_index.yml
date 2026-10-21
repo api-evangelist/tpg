@@ -40,3 +40,36 @@
     - TPG SOLUTIONS ADVISORS, LLC (CRD 313020)
   status: not-a-workflow
   arazzo: null
+- slug: tpg-ilpa-institutional-limited-partners-association
+  label: ILPA (Institutional Limited Partners Association)
+  partner_name: ILPA (Institutional Limited Partners Association)
+  category: private-markets industry association / reporting-template standard
+  type: register
+  channel: standard-directory
+  evidence: https://ilpa.org/organization/tpg-capital/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ILPA organisations (ilpa.org Member Directory + ILPA Templates Hub endorsers; public WP JSON)
+    standard: ILPA Principles / ILPA Reporting, Performance and Capital Call templates
+    spec_file: null
+    role:
+    - ilpa-performance-template-endorser
+    - ilpa-reporting-template-endorser
+    - ilpa-signatory
+    - ilpa-template-endorser
+    organisation_type:
+    - general-partner
+    registered_name: TPG Capital
+    register_id: ilpa organization 1123 (tpg-capital)
+    register_country: united-states
+    matched_domain: tpg.com
+    matched_by: domain
+    signal_note: 'participation only: ILPA membership / template endorsement is a public commitment, not tested
+      conformance; one edge per organisation, roles are context, never counted'
+    detected_by: sweep-private-markets-fund-admin.py
+    detected: '2026-10-20'
+    identity: wikidata Q2164606 'TPG' P856 https://www.tpg.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null
